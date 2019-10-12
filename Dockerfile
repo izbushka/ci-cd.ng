@@ -7,6 +7,6 @@ RUN apt-get update -y && \
     apt-get install -y ssh rsync openssh-client git wget curl unzip && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN ln -s /bin/bash /usr/local/bin/bash
+# RUN ln -s /bin/bash /usr/local/bin/bash
 
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
