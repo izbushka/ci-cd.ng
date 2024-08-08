@@ -1,4 +1,4 @@
-FROM node:18.16.0
+FROM node:18.20.0
 
 ENV NPM_CONFIG_LOGLEVEL info
 
